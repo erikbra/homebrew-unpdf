@@ -4,28 +4,28 @@
 class Unpdf < Formula
   desc "Convert PDF documents to semantic HTML"
   homepage "https://github.com/erikbra/pdfbox-net"
-  version "4.0.0-preview.1"
+  version "4.0.0-preview.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/erikbra/pdfbox-net/releases/download/unpdf-v4.0.0-preview.1/unpdf-4.0.0-preview.1-osx-arm64.tar.gz"
-      sha256 "184f0f18a6e988c7d0ccec92c0c02464b8e9bd645a1518c1799c428ae2a4e5a3"
+      url "https://github.com/erikbra/pdfbox-net/releases/download/unpdf-v4.0.0-preview.2/unpdf-4.0.0-preview.2-osx-arm64.tar.gz"
+      sha256 "616482d6b5f9da93cb759cf011c4e5dc004f53d2929dfcefe260c8d58e29c787"
     end
     on_intel do
-      url "https://github.com/erikbra/pdfbox-net/releases/download/unpdf-v4.0.0-preview.1/unpdf-4.0.0-preview.1-osx-x64.tar.gz"
-      sha256 "4ceed6aa9aa516c5051f2f5248910257f5634e863a5f54a6872ee50f446d3ea9"
+      url "https://github.com/erikbra/pdfbox-net/releases/download/unpdf-v4.0.0-preview.2/unpdf-4.0.0-preview.2-osx-x64.tar.gz"
+      sha256 "66bc2059bf639fdc4684a07aa51483eaf74ec956b0794a9d84cc8f5c35ffceab"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/erikbra/pdfbox-net/releases/download/unpdf-v4.0.0-preview.1/unpdf-4.0.0-preview.1-linux-arm64.tar.gz"
-      sha256 "d95ebf121aa7d0c2751d04d24e38dff5e96d0d30ca40f771cfb04f4ce628415e"
+      url "https://github.com/erikbra/pdfbox-net/releases/download/unpdf-v4.0.0-preview.2/unpdf-4.0.0-preview.2-linux-arm64.tar.gz"
+      sha256 "cdf3d2be67fbd93e390afc92c7bfc84424af63ce2981e167c5810370285e2031"
     end
     on_intel do
-      url "https://github.com/erikbra/pdfbox-net/releases/download/unpdf-v4.0.0-preview.1/unpdf-4.0.0-preview.1-linux-x64.tar.gz"
-      sha256 "0c9b7e2c338559425b1aa9e9b6b9d82b9c7fd965e2f0ab71900a40c296c27058"
+      url "https://github.com/erikbra/pdfbox-net/releases/download/unpdf-v4.0.0-preview.2/unpdf-4.0.0-preview.2-linux-x64.tar.gz"
+      sha256 "a4530ba9b39e321a09a532172aebca9eac1036d670616363228c81ea7256d9f2"
     end
   end
 
